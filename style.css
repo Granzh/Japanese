@@ -1,0 +1,19 @@
+body {
+    background-color: #3563E1;
+}
+.centered {
+    margin-left: 47%;
+    margin-top: 20%;
+    font-size: 50px;
+    font-family: sans-serif;
+    color: #FFFFFF;
+}
+.button {
+    margin-left: 45%;
+    margin-top:  2%;
+    font-family: sans-serif;
+    color: #000;
+    padding: 50px;
+    font-size: 34px;
+    background-color: #E1CD4B;
+}
