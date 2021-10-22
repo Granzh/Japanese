@@ -9,7 +9,7 @@ function getRandomInt(max) {
 function getRandomSymbol() {
     return JAPANESE_SYLLABLE[getRandomInt(JAPANESE_SYLLABLE.length)]
 }
-function getword() {
+function getWord() {
     let zero;
     let Int = getRandomInt(4)
     let str = '';
@@ -18,9 +18,9 @@ function getword() {
     return str;
 }
 let Ht = document.getElementById('N');    
-Ht.innerHTML = getword();
-function showword() {
+Ht.innerHTML = getWord();
+function showWord() {
     let Ht = document.getElementById('N');
 
-    Ht.innerHTML = getword();
+    Ht.innerHTML = getWord();
 }
