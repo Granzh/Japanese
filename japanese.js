@@ -7,7 +7,7 @@ function getRandomInt(max) {
     return Math.floor(Math.random() * max)
 }
 function getRandomSymbol() {
-    return JAPANESE_SYLLABLE[Math.floor(Math.random() * JAPANESE_SYLLABLE.length)]
+    return JAPANESE_SYLLABLE[getRandomInt(JAPANESE_SYLLABLE.length)]
 }
 function getword() {
     let zero;
